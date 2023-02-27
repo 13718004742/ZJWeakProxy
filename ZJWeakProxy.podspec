@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   # 库名称
   s.name             = 'ZJWeakProxy'
   # 版本号
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   # 库简短介绍
   s.summary          = 'A short description of ZJWeakProxy.'
 
@@ -25,14 +25,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
   # 开源库地址，或者是博客、社交地址等
-  s.homepage         = 'https://github.com/13718004742/ZJWeakProxy'
+  s.homepage         = 'https://github.com/BboyZJ/ZJWeakProxy'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   # 开源协议
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   # 开源库作者
-  s.author           = { '13718004742' => '670735022@qq.com' }
+  s.author           = { 'BboyZJ' => '13718004742@163.com' }
   # 开源库资源文件
-  s.source           = { :git => 'https://github.com/13718004742/ZJWeakProxy.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/BboyZJ/ZJWeakProxy.git', :tag => s.version.to_s }
   # 社交网址
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   # 开源库最低支持

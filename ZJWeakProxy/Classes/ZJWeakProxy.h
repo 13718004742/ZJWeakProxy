@@ -9,8 +9,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/**
+ 功能：利用NSProxy的消息转发机制来避免循环引用
+ 用在NSTimer或者CADisplayLink中
+ */
 @interface ZJWeakProxy : NSProxy
-- (void)printZJWeakProxy;
++ (instancetype)proxyWithTarget:(id)target;
 @end
 
 NS_ASSUME_NONNULL_END
