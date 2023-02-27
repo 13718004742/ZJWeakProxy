@@ -41,5 +41,10 @@
     return [self.target respondsToSelector:aSelector];
 }
 
+#pragma mark -dealloc
+- (void)dealloc{
+    NSLog(@"%s",__FUNCTION__);
+}
+
 @end
 

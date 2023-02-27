@@ -7,10 +7,11 @@
 //
 
 #import "ZJViewController.h"
-#import <ZJWeakProxy.h>
+
+#import "ZJNViewController.h"
 
 @interface ZJViewController ()
-
+@property (nonatomic,strong)UIButton * nextBtn;
 @end
 
 @implementation ZJViewController
@@ -18,9 +19,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	
-    ZJWeakProxy * proxy = [ZJWeakProxy alloc];
-    [proxy printZJWeakProxy];
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    self.nextBtn = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 50)];
+    self.nextBtn.backgroundColor = [UIColor redColor];
+    [self.nextBtn setTitle:@"Next" forState:UIControlStateNormal];
+    [self.nextBtn setTitleColor:[UIColor greenColor] forState:UIControlStateNormal];
+    self.nextBtn.titleLabel.font = [UIFont systemFontOfSize:20];
+    [self.view addSubview:self.nextBtn];
+    [self.nextBtn addTarget:self action:@selector(clickBtn) forControlEvents:UIControlEventTouchUpInside];
+}
+
+- (void)clickBtn{
+    ZJNViewController * nextVC = [ZJNViewController new];
+    [self presentViewController:nextVC animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning

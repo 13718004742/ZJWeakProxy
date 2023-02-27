@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   # 库名称
   s.name             = 'ZJWeakProxy'
   # 版本号
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   # 库简短介绍
   s.summary          = 'A short description of ZJWeakProxy.'
 
