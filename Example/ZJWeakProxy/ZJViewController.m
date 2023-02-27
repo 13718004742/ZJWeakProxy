@@ -7,6 +7,7 @@
 //
 
 #import "ZJViewController.h"
+#import <ZJWeakProxy.h>
 
 @interface ZJViewController ()
 
@@ -17,7 +18,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    ZJWeakProxy * proxy = [ZJWeakProxy alloc];
+    [proxy printZJWeakProxy];
 }
 
 - (void)didReceiveMemoryWarning

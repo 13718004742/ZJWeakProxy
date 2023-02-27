@@ -22,7 +22,7 @@ pod 'ZJWeakProxy'
 
 ## Author
 
-13718004742, 670735022@qq.com
+BboyZJ, 13718004742@163.com
 
 ## License
 

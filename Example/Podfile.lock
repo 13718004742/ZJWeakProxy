@@ -1,0 +1,16 @@
+PODS:
+  - ZJWeakProxy (0.1.0)
+
+DEPENDENCIES:
+  - ZJWeakProxy (from `../`)
+
+EXTERNAL SOURCES:
+  ZJWeakProxy:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZJWeakProxy: 1bf09c4aae153a79a3f78e545d60dcc8d526cbcb
+
+PODFILE CHECKSUM: 1977878ef9e11fc6ecba09caa9044df4307117dc
+
+COCOAPODS: 1.11.3
