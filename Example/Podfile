@@ -1,10 +1,10 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '9.0'
 
 target 'ZJWeakProxy_Example' do
   
-  pod 'ZJWeakProxy', :path => '../'
+  pod 'ZJWeakProxy'
 
   target 'ZJWeakProxy_Tests' do
     inherit! :search_paths

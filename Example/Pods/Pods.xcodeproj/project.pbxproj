@@ -7,70 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00D8D197C079B807CFCD100D1C869E1A /* ZJWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6F82AA332D359BDAF798ADF459777F /* ZJWeakProxy.m */; };
+		00D8D197C079B807CFCD100D1C869E1A /* ZJWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD029A8F118F6DD672A208D385AE58A0 /* ZJWeakProxy.m */; };
 		03EB08186FF79483B30FD7CED0F6A2F6 /* Pods-ZJWeakProxy_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2965B575D454D366CA219A6FBC360946 /* Pods-ZJWeakProxy_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		097C0F2DDE93BD2BC4F9666D2EFFBB10 /* ZJWeakProxy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 407A5173D39A9CC0EEA1E0429015D2E4 /* ZJWeakProxy-dummy.m */; };
+		097C0F2DDE93BD2BC4F9666D2EFFBB10 /* ZJWeakProxy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7C0A40175D2FD9FA759A213BE1C275 /* ZJWeakProxy-dummy.m */; };
 		1D49EA3BCC9F380B160D4168E2029FD1 /* Pods-ZJWeakProxy_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6859477260F8CC4413E01892605B3ACF /* Pods-ZJWeakProxy_Example-dummy.m */; };
-		201EDE8481EE97DEB780DC7A294C50D9 /* ZJWeakProxy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6E126A1774264C73BE4942D50E53245 /* ZJWeakProxy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		201EDE8481EE97DEB780DC7A294C50D9 /* ZJWeakProxy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68B0018EB2FFA2E0FAA6202B49B10C16 /* ZJWeakProxy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32225A9C7622E03C52E8701E4CE083B2 /* Pods-ZJWeakProxy_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF371D47C043A4F6592BF214CF862F44 /* Pods-ZJWeakProxy_Tests-dummy.m */; };
 		68DDD2E455DFEA2284485543740C65F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7BED6D0575E231BF1CF324CF5EE13600 /* Pods-ZJWeakProxy_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DBCCE277D9C81023386DB2F63B851C2 /* Pods-ZJWeakProxy_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87E30BDBA8678F2B2B077E09318F5BC2 /* ZJWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 87D9110D9828AE370964B4C164921303 /* ZJWeakProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87E30BDBA8678F2B2B077E09318F5BC2 /* ZJWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DD55F591FFC03A5AE6117E7C95BEACE /* ZJWeakProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9EA6026FE35772ABFC49FB6643E22CBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B9DFB0FA03F4C707DE92C0B2F27F9FC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		591AD4117BACA4F5BA1DC5689746A4B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F458ACCA838679CC07FDAE80DB4AEED9;
-			remoteInfo = "Pods-ZJWeakProxy_Example";
-		};
-		890E082E7873985E63F6B26215C2795E /* PBXContainerItemProxy */ = {
+		995B5500CAE413C2596A901899CD2B8D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B999F67333566CB5CD8F0D5621E55C16;
 			remoteInfo = ZJWeakProxy;
 		};
+		D624ED656A9D93CFC5541B42F3558B20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F458ACCA838679CC07FDAE80DB4AEED9;
+			remoteInfo = "Pods-ZJWeakProxy_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0BBE211CE6B6CE9691DB5C385477ABC3 /* Pods-ZJWeakProxy_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZJWeakProxy_Tests.modulemap"; sourceTree = "<group>"; };
 		113EE32F00C436A94DEBA438E62A45F5 /* Pods-ZJWeakProxy_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZJWeakProxy_Example.modulemap"; sourceTree = "<group>"; };
+		1AA9C5ADA301BD21B52088F14659FC4F /* ZJWeakProxy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZJWeakProxy.modulemap; sourceTree = "<group>"; };
+		1E23E81E9657CF49163B821772686284 /* ZJWeakProxy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJWeakProxy-prefix.pch"; sourceTree = "<group>"; };
 		2965B575D454D366CA219A6FBC360946 /* Pods-ZJWeakProxy_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZJWeakProxy_Example-umbrella.h"; sourceTree = "<group>"; };
 		2EEA4B258972B4C6FD8A2B8B13F4AEF4 /* Pods-ZJWeakProxy_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZJWeakProxy_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2F5B9AB083D38857D8D4FDC04F7B5D21 /* ZJWeakProxy.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZJWeakProxy.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		3134DC149200235FF6B99AFB508FE717 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		31A25D80D93A8F770BD6A95DC93D6313 /* Pods-ZJWeakProxy_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJWeakProxy_Example-Info.plist"; sourceTree = "<group>"; };
 		35BEDC48F9D2646CADF02D747E7C7165 /* Pods-ZJWeakProxy_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJWeakProxy_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		407A5173D39A9CC0EEA1E0429015D2E4 /* ZJWeakProxy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZJWeakProxy-dummy.m"; sourceTree = "<group>"; };
+		4A7C0A40175D2FD9FA759A213BE1C275 /* ZJWeakProxy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZJWeakProxy-dummy.m"; sourceTree = "<group>"; };
 		4FF0366C26E7D7111DF5B7AFB8E2854A /* Pods-ZJWeakProxy_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJWeakProxy_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		581921FD7118E2988EADED2A4F1968FD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		5D5382419BD37C0A50F9DFC076FEA6A2 /* ZJWeakProxy-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZJWeakProxy-Info.plist"; sourceTree = "<group>"; };
 		6859477260F8CC4413E01892605B3ACF /* Pods-ZJWeakProxy_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJWeakProxy_Example-dummy.m"; sourceTree = "<group>"; };
-		68BF16F732181579E8B89597AC61D897 /* ZJWeakProxy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJWeakProxy-prefix.pch"; sourceTree = "<group>"; };
+		68B0018EB2FFA2E0FAA6202B49B10C16 /* ZJWeakProxy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJWeakProxy-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		79D9CB1118BF05270CCCDEB90324C4DD /* Pods-ZJWeakProxy_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZJWeakProxy_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7DD55F591FFC03A5AE6117E7C95BEACE /* ZJWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZJWeakProxy.h; path = ZJWeakProxy/Classes/ZJWeakProxy.h; sourceTree = "<group>"; };
 		80BE01812F52D103F308539AD7DE579B /* Pods-ZJWeakProxy_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJWeakProxy_Example.release.xcconfig"; sourceTree = "<group>"; };
-		87D9110D9828AE370964B4C164921303 /* ZJWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZJWeakProxy.h; path = ZJWeakProxy/Classes/ZJWeakProxy.h; sourceTree = "<group>"; };
 		88FE3328C2F5177361AE65515DD79CDD /* Pods-ZJWeakProxy_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJWeakProxy_Tests-Info.plist"; sourceTree = "<group>"; };
 		90F910E46204F41A5973F03BB71AB687 /* ZJWeakProxy */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZJWeakProxy; path = ZJWeakProxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9288417E4E93B3E4B9E1A23790085822 /* ZJWeakProxy-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZJWeakProxy-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DBCCE277D9C81023386DB2F63B851C2 /* Pods-ZJWeakProxy_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZJWeakProxy_Tests-umbrella.h"; sourceTree = "<group>"; };
-		ADDF480C7C033576B9F0E1BAC0F36422 /* ZJWeakProxy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJWeakProxy.release.xcconfig; sourceTree = "<group>"; };
-		B5E2246D428BD731A4A1456F1F44DF0F /* ZJWeakProxy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJWeakProxy.debug.xcconfig; sourceTree = "<group>"; };
-		B9C8B734538C9ECE26F284A4BCC977BF /* ZJWeakProxy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZJWeakProxy.modulemap; sourceTree = "<group>"; };
+		AFDC87BA331C507AA6218BA72294A902 /* ZJWeakProxy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJWeakProxy.debug.xcconfig; sourceTree = "<group>"; };
 		C00556C273CCA22CCC3F63FC394D6B14 /* Pods-ZJWeakProxy_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZJWeakProxy_Tests"; path = Pods_ZJWeakProxy_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C138A56D629F8588F0C49B1A7BD1AB09 /* Pods-ZJWeakProxy_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZJWeakProxy_Example"; path = Pods_ZJWeakProxy_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8398B308DE659A7835FCC346E2AB616 /* Pods-ZJWeakProxy_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJWeakProxy_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DB6F82AA332D359BDAF798ADF459777F /* ZJWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZJWeakProxy.m; path = ZJWeakProxy/Classes/ZJWeakProxy.m; sourceTree = "<group>"; };
+		DD029A8F118F6DD672A208D385AE58A0 /* ZJWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZJWeakProxy.m; path = ZJWeakProxy/Classes/ZJWeakProxy.m; sourceTree = "<group>"; };
 		E7F74352352A13A28E1A993E846F401F /* Pods-ZJWeakProxy_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJWeakProxy_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EF371D47C043A4F6592BF214CF862F44 /* Pods-ZJWeakProxy_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJWeakProxy_Tests-dummy.m"; sourceTree = "<group>"; };
+		F2E632F0E36E86247C4A26B31F0D933A /* ZJWeakProxy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJWeakProxy.release.xcconfig; sourceTree = "<group>"; };
 		F3AB5B1ED86133A713DE5CF5F7B6196F /* Pods-ZJWeakProxy_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJWeakProxy_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F6E126A1774264C73BE4942D50E53245 /* ZJWeakProxy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJWeakProxy-umbrella.h"; sourceTree = "<group>"; };
 		FC59ECCD1CEBF74B9EAC1197C1B76454 /* Pods-ZJWeakProxy_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJWeakProxy_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,18 +99,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		055971D04A6F74C34B30D9F899AAA322 /* ZJWeakProxy */ = {
-			isa = PBXGroup;
-			children = (
-				87D9110D9828AE370964B4C164921303 /* ZJWeakProxy.h */,
-				DB6F82AA332D359BDAF798ADF459777F /* ZJWeakProxy.m */,
-				77B55FFF24504584C4311F92BED95C9C /* Pod */,
-				72A631DDE556389E411346F7238B6D09 /* Support Files */,
-			);
-			name = ZJWeakProxy;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		0ECB262FE1E81FC98BB8DF731B0784C5 /* Pods-ZJWeakProxy_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +116,32 @@
 			path = "Target Support Files/Pods-ZJWeakProxy_Example";
 			sourceTree = "<group>";
 		};
+		14E823EE459CBFE9F786E984FDD30653 /* ZJWeakProxy */ = {
+			isa = PBXGroup;
+			children = (
+				7DD55F591FFC03A5AE6117E7C95BEACE /* ZJWeakProxy.h */,
+				DD029A8F118F6DD672A208D385AE58A0 /* ZJWeakProxy.m */,
+				186B3DAFD933728F3E1E9C3477E52AC0 /* Support Files */,
+			);
+			name = ZJWeakProxy;
+			path = ZJWeakProxy;
+			sourceTree = "<group>";
+		};
+		186B3DAFD933728F3E1E9C3477E52AC0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AA9C5ADA301BD21B52088F14659FC4F /* ZJWeakProxy.modulemap */,
+				4A7C0A40175D2FD9FA759A213BE1C275 /* ZJWeakProxy-dummy.m */,
+				9288417E4E93B3E4B9E1A23790085822 /* ZJWeakProxy-Info.plist */,
+				1E23E81E9657CF49163B821772686284 /* ZJWeakProxy-prefix.pch */,
+				68B0018EB2FFA2E0FAA6202B49B10C16 /* ZJWeakProxy-umbrella.h */,
+				AFDC87BA331C507AA6218BA72294A902 /* ZJWeakProxy.debug.xcconfig */,
+				F2E632F0E36E86247C4A26B31F0D933A /* ZJWeakProxy.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZJWeakProxy";
+			sourceTree = "<group>";
+		};
 		1E0029C32619D5237C8F3BD5CD65C0EC /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,12 +151,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		39E5F20E1344EAB0364118CBBF5880AB /* Development Pods */ = {
+		22233A56C2A54FDBE73453F1A29C24FD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				055971D04A6F74C34B30D9F899AAA322 /* ZJWeakProxy */,
+				14E823EE459CBFE9F786E984FDD30653 /* ZJWeakProxy */,
 			);
-			name = "Development Pods";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -154,31 +165,6 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		72A631DDE556389E411346F7238B6D09 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B9C8B734538C9ECE26F284A4BCC977BF /* ZJWeakProxy.modulemap */,
-				407A5173D39A9CC0EEA1E0429015D2E4 /* ZJWeakProxy-dummy.m */,
-				5D5382419BD37C0A50F9DFC076FEA6A2 /* ZJWeakProxy-Info.plist */,
-				68BF16F732181579E8B89597AC61D897 /* ZJWeakProxy-prefix.pch */,
-				F6E126A1774264C73BE4942D50E53245 /* ZJWeakProxy-umbrella.h */,
-				B5E2246D428BD731A4A1456F1F44DF0F /* ZJWeakProxy.debug.xcconfig */,
-				ADDF480C7C033576B9F0E1BAC0F36422 /* ZJWeakProxy.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZJWeakProxy";
-			sourceTree = "<group>";
-		};
-		77B55FFF24504584C4311F92BED95C9C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				3134DC149200235FF6B99AFB508FE717 /* LICENSE */,
-				581921FD7118E2988EADED2A4F1968FD /* README.md */,
-				2F5B9AB083D38857D8D4FDC04F7B5D21 /* ZJWeakProxy.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		91F4A922234EE31666C12D578E21BAC4 /* Pods-ZJWeakProxy_Tests */ = {
@@ -201,8 +187,8 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				39E5F20E1344EAB0364118CBBF5880AB /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				22233A56C2A54FDBE73453F1A29C24FD /* Pods */,
 				D460492375B33CCBBB35BB47CB45A773 /* Products */,
 				1E0029C32619D5237C8F3BD5CD65C0EC /* Targets Support Files */,
 			);
@@ -269,7 +255,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				4E9BB8C69184D1044969C7B6B0F5474E /* PBXTargetDependency */,
+				FBBECA458306BA655DD4EB45C1B0B3FB /* PBXTargetDependency */,
 			);
 			name = "Pods-ZJWeakProxy_Tests";
 			productName = Pods_ZJWeakProxy_Tests;
@@ -306,7 +292,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				AD4FE9177150375F501C4D67E8D7AC6C /* PBXTargetDependency */,
+				EC58C62940F9C21EA4FD1B0F4C8D4264 /* PBXTargetDependency */,
 			);
 			name = "Pods-ZJWeakProxy_Example";
 			productName = Pods_ZJWeakProxy_Example;
@@ -395,17 +381,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4E9BB8C69184D1044969C7B6B0F5474E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-ZJWeakProxy_Example";
-			target = F458ACCA838679CC07FDAE80DB4AEED9 /* Pods-ZJWeakProxy_Example */;
-			targetProxy = 591AD4117BACA4F5BA1DC5689746A4B2 /* PBXContainerItemProxy */;
-		};
-		AD4FE9177150375F501C4D67E8D7AC6C /* PBXTargetDependency */ = {
+		EC58C62940F9C21EA4FD1B0F4C8D4264 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ZJWeakProxy;
 			target = B999F67333566CB5CD8F0D5621E55C16 /* ZJWeakProxy */;
-			targetProxy = 890E082E7873985E63F6B26215C2795E /* PBXContainerItemProxy */;
+			targetProxy = 995B5500CAE413C2596A901899CD2B8D /* PBXContainerItemProxy */;
+		};
+		FBBECA458306BA655DD4EB45C1B0B3FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZJWeakProxy_Example";
+			target = F458ACCA838679CC07FDAE80DB4AEED9 /* Pods-ZJWeakProxy_Example */;
+			targetProxy = D624ED656A9D93CFC5541B42F3558B20 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -608,7 +594,7 @@
 		};
 		AF2AC27F79EF72F944D126D06074127B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADDF480C7C033576B9F0E1BAC0F36422 /* ZJWeakProxy.release.xcconfig */;
+			baseConfigurationReference = F2E632F0E36E86247C4A26B31F0D933A /* ZJWeakProxy.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -706,7 +692,7 @@
 		};
 		E87CCC8EFE2606773E23E9743D53E9FE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5E2246D428BD731A4A1456F1F44DF0F /* ZJWeakProxy.debug.xcconfig */;
+			baseConfigurationReference = AFDC87BA331C507AA6218BA72294A902 /* ZJWeakProxy.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

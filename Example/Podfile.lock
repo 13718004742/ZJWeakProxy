@@ -1,16 +1,16 @@
 PODS:
-  - ZJWeakProxy (0.1.0)
+  - ZJWeakProxy (0.3.0)
 
 DEPENDENCIES:
-  - ZJWeakProxy (from `../`)
+  - ZJWeakProxy
 
-EXTERNAL SOURCES:
-  ZJWeakProxy:
-    :path: "../"
+SPEC REPOS:
+  trunk:
+    - ZJWeakProxy
 
 SPEC CHECKSUMS:
-  ZJWeakProxy: 1bf09c4aae153a79a3f78e545d60dcc8d526cbcb
+  ZJWeakProxy: 79faebaac39fd5430c90f42d5cf4ad3699da6795
 
-PODFILE CHECKSUM: 1977878ef9e11fc6ecba09caa9044df4307117dc
+PODFILE CHECKSUM: 32f90f39408b8cc4893646ea795ef05eff984216
 
 COCOAPODS: 1.11.3

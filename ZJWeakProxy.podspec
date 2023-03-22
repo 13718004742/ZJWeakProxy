@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   # 库名称
   s.name             = 'ZJWeakProxy'
   # 版本号
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   # 库简短介绍
   s.summary          = 'A short description of ZJWeakProxy.'
 
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   # 社交网址
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   # 开源库最低支持
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
   # 开源库源文件
   s.source_files = 'ZJWeakProxy/Classes/**/*'
   # 添加资源文件
